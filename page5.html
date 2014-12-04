@@ -20,6 +20,39 @@
     <script type="text/javascript" src="wpscripts/jsNavBarFuncs.js"></script>
     <script type="text/javascript" src="wpscripts/wp_navbar_menub.js"></script>
     <script type="text/javascript" src="wpscripts/nav_170tree.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/supersized.3.2.6.min.js"></script>
+<script type="text/javascript" src="js/supersized.shutter.min.js"></script>
+<script type="text/javascript" src="prettyphoto/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript">
+ jQuery(function($){
+  $.supersized({
+  slide_interval          :   6000,     // Length between transitions
+  transition              :   1,        // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+  transition_speed		  :	  900,      // Speed of transition
+  random				  :   0,        // 0-Random images OFF, 1-Random images ON
+  performance			  :	  1,		// 0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+  slide_links			  :	  'blank',  // Individual links for each slide (Options: false, 'num', 'name', 'blank')  
+  
+  slides 				  :   [			// Slideshow Images
+
+    {image : 'images/background/01.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/01.jpg'},
+    {image : 'images/background/02.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/02.jpg'},
+    {image : 'images/background/03.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/03.jpg'},
+    {image : 'images/background/04.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/04.jpg'},
+    {image : 'images/background/05.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/05.jpg'},
+    {image : 'images/background/06.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/06.jpg'},
+    {image : 'images/background/07.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/07.jpg'},
+    {image : 'images/background/08.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/08.jpg'},
+    {image : 'images/background/09.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/09.jpg'},
+    {image : 'images/background/10.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/10.jpg'},
+    {image : 'images/background/11.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/11.jpg'},
+    {image : 'images/background/12.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/12.jpg'}
+    ]
+   });
+  });
+</script>
   </head>
   <body style="height:1001px;background:#292929;">
     <div id="pattern"></div>
@@ -126,6 +159,7 @@ separator:{'m_bAllowSeparators':true}}});
           <p class="Body P-1"><a href="login.html?iframe=true&amp;width=450&amp;height=300&quot;%20rel=&quot;prettyPhoto[iframes]" class="C-1">All rights reserved © Please don’t steal</a></p>
         </div>
       </div>
+      <div style="position:absolute;left:277px;top:28px;width:164px;height:32px;"></div>
     </div>
     <script type="text/javascript" charset="utf-8"> 
         $(document).ready(function(){
