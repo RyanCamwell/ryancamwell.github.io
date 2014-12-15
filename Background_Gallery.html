@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>About</title>
+    <title>Background Gallery</title>
     <meta name="generator" content="Serif WebPlus X7">
     <meta name="viewport" content="width=960">
     
@@ -17,15 +17,46 @@
 .pp_nav p, .pp_description {font:12px "Helvetica Neue", Helvetica, Arial, sans-serif}
       .P-1 { text-align:center;line-height:1px;font-family:"Tahoma", sans-serif;font-style:normal;font-weight:normal;color:#ffffff;background-color:transparent;font-variant:normal;font-size:9.0px;vertical-align:0; }
       .C-1 { line-height:11.00px;font-family:"Tahoma", sans-serif;font-style:normal;font-weight:normal;color:#ffffff;background-color:transparent;text-decoration:none;font-variant:normal;font-size:9.3px;vertical-align:0; }
-      .C-2 { line-height:16.00px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#ffffff;background-color:transparent;text-decoration:none;font-variant:normal;font-size:13.3px;vertical-align:0; }
-      .C-3 { line-height:25.00px;font-family:"Tahoma", sans-serif;font-style:normal;font-weight:normal;color:#ffffff;background-color:transparent;text-decoration:none;font-variant:normal;font-size:21.3px;vertical-align:0; }
     </style>
     <script type="text/javascript" src="wpscripts/jsNavBarFuncs.js"></script>
     <script type="text/javascript" src="wpscripts/wp_navbar_menub.js"></script>
     <script type="text/javascript" src="wpscripts/nav_170tree.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/supersized.3.2.6.min.js"></script>
+<script type="text/javascript" src="js/supersized.shutter.min.js"></script>
+<script type="text/javascript" src="prettyphoto/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript">
+ jQuery(function($){
+ ({
+  slide_interval          :   6000,     // Length between transitions
+  transition              :   1,        // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+  transition_speed		  :	  900,      // Speed of transition
+  random				  :   0,        // 0-Random images OFF, 1-Random images ON
+  performance			  :	  1,		// 0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+  slide_links			  :	  'blank',  // Individual links for each slide (Options: false, 'num', 'name', 'blank')  
+  
+  slides 				  :   [			// Slideshow Images
+
+    {image : 'images/background/01.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/01.jpg'},
+    {image : 'images/background/02.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/02.jpg'},
+    {image : 'images/background/03.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/03.jpg'},
+    {image : 'images/background/04.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/04.jpg'},
+    {image : 'images/background/05.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/05.jpg'},
+    {image : 'images/background/06.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/06.jpg'},
+    {image : 'images/background/07.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/07.jpg'},
+    {image : 'images/background/08.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/08.jpg'},
+    {image : 'images/background/09.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/09.jpg'},
+    {image : 'images/background/10.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/10.jpg'},
+    {image : 'images/background/11.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/11.jpg'},
+    {image : 'images/background/12.jpg', title : 'Ryan Camwell Photography', thumb : 'images/background/thumbs/12.jpg'}
+    ]
+   });
+  });
+</script>
   </head>
-  <body style="height:550px;background:#292929;">
-    <div id="divMain" style="background:transparent;position:relative;width:960px;height:550px;">
+  <body style="height:1001px;background:#292929;">
+    <div id="divMain" style="background:transparent;position:relative;width:960px;height:1001px;">
       <div style="position:fixed;left:6px;top:7px;width:268px;height:500px;z-index:1;">
         <img alt="" src="wpimages/wpaf4de456_06.png" style="position:absolute;left:17px;top:18px;width:239px;height:470px;">
         <img alt="" src="logo.png" style="position:absolute;left:22px;top:48px;width:230px;height:96px;">
@@ -37,7 +68,7 @@
         <img alt="" src="wpimages/wpabbde36d_06.png" style="position:absolute;left:30px;top:335px;width:214px;height:1px;">
         <script type="text/javascript" id="nav_170_script">
           try {
-          var navtree_nav_170 = WpNavBar.getNavTreeCustom( nav_170tree, {'m_sThisPageUrl':'page3.html',
+          var navtree_nav_170 = WpNavBar.getNavTreeCustom( nav_170tree, {'m_sThisPageUrl':'Background_Gallery.html',
 'm_sNavBarTarget':'_self',
 'm_bFlash':false,
 'm_bIncludeChildren':true,
@@ -50,7 +81,7 @@
 'm_sCssClass':'nav_170style',
 'm_iWidth':179,
 'm_iHeight':188}, {'m_iMaxCssLevel':1,
-top:{'m_iHorizontalPadding':0,'m_iVerticalPadding':0,'m_iHorizontalPosition':1,'m_iVerticalPosition':0,'m_bWrap':false,'m_iHorizontalButtonSeparation':2,'m_iVerticalButtonSeparation':34,'m_bButtonsSameSize':false,'m_bStretchToWidth':true},
+top:{'m_iHorizontalPadding':0,'m_iVerticalPadding':0,'m_iHorizontalPosition':1,'m_iVerticalPosition':0,'m_bWrap':false,'m_iHorizontalButtonSeparation':0,'m_iVerticalButtonSeparation':34,'m_bButtonsSameSize':false,'m_bStretchToWidth':true},
 level1:{'m_iMinWidth':150,'m_iFirstPopupOffset':75,'m_iInterPopupOffset':10,'m_iOpacity':70,'m_bFade':true,'m_iFadeSpeed':2,
 separator:{'m_bAllowSeparators':true}}});
           } catch(e){
@@ -58,7 +89,7 @@ separator:{'m_bAllowSeparators':true}}});
           }
         </script>
         <noscript>
-        <div class="nav_170style" id="nav_170" style="left: 47px; top: 193px; width: 179px; height: 188px; position: absolute;"><a id="nav_170_I0" style="left: 0px; top: 0px; width: 179px; position: absolute;" href="index.html" target="_self">Welcome</a><span class=" hassubmenu" id="nav_170_I1" style="left: 0px; top: 53px; width: 179px; position: absolute;">Portfolio</span><br><a id="nav_170_I2" style="left: 0px; top: 106px; width: 179px; position: absolute;" href="page3.html" target="_self">About</a><a id="nav_170_I3" style="left: 0px; top: 159px; width: 179px; position: absolute;" href="page4.html" target="_self">Contact</a></div>
+        <div class="nav_170style" id="nav_170" style="left: 47px; top: 193px; width: 179px; height: 188px; position: absolute;"><a id="nav_170_I0" style="left: 0px; top: 0px; width: 179px; position: absolute;" href="index.html" target="_self">Welcome</a><a class=" hassubmenu" id="nav_170_I1" style="left: 0px; top: 53px; width: 179px; position: absolute;" href="Portfolio.html" target="_self">Portfolio</a><br><a id="nav_170_I2" style="left: 0px; top: 106px; width: 179px; position: absolute;" href="About.html" target="_self">About</a><a id="nav_170_I3" style="left: 0px; top: 159px; width: 179px; position: absolute;" href="Contact.html" target="_self">Contact</a></div>
 
         </noscript>
         <img alt="" src="facebook.png" style="position:absolute;left:83px;top:404px;width:25px;height:25px;">
@@ -109,25 +140,7 @@ var message="Right click function disabled to protect images :)";
 // --> 
 //</script>
       </div>
-      <div id="menu">
-      <a href="page5.html">
-        <img alt="Background Gallery" src="wpimages/wp42edcc46_06.png" style="position:absolute;left:937px;top:54px;width:23px;height:23px;">
-      </a>
-      </div>
-      <img alt="" src="wpimages/wp445ad8f1_06.png" style="position:absolute;left:272px;top:54px;width:665px;height:437px;">
-      <div style="position:absolute;left:295px;top:146px;width:288px;height:330px;overflow:hidden;">
-        <p class="Body"><span class="C-2">I'm Ryan, a photographer based in Solihull seeking models or other subjects to help develop my portfolio. As I’m a new photographer all sessions will be completely free of charge.</span></p>
-        <p class="Body"><span class="C-2"><br></span></p>
-        <p class="Body"><span class="C-2">Anyone who wants to take advantage of this offer will benefit from full resolution digital copies of all final images. Prints will be available on request at retail price.</span></p>
-        <p class="Body"><span class="C-2"><br></span></p>
-        <p class="Body"><span class="C-2">I am interested in all types of photography and am happy to work any kind of shoot. If you're unsure about anything then feel free to email any requests or questions to: ryancamwellphotography@gmail.com</span></p>
-        <p class="Body"><span class="C-2"><br></span></p>
-        <p class="Body"><span class="C-2"><br></span></p>
-      </div>
-      <div style="position:absolute;left:295px;top:89px;width:620px;height:39px;overflow:hidden;">
-        <h2 class="Heading-2"><span class="C-3">About me and the reason for this site</span></h2>
-      </div>
-      <img alt="" src="wpimages/wpc285b527_05_06.jpg" style="position:absolute;left:605px;top:157px;width:311px;height:308px;">
+      <div style="position:absolute;left:277px;top:28px;width:164px;height:32px;"></div>
     </div>
   </body>
 </html>

@@ -8,31 +8,32 @@ var nav_170tree = WpNavBar.readTree({
 },
 {   'sTitle':'Portfolio',
 'bIsExternal':true,
-'sUrl':'',
+'bIsWebPath':true,
+'sUrl':'Portfolio.html',
 'sTarget':'_self',"childArray" : [
 {   'sTitle':'Favourites',
 'bIsExternal':true,
 'bIsWebPath':true,
-'sUrl':'page2.html',
+'sUrl':'Portfolio.html',
 'sTarget':'_self'
 },
 {   'sTitle':'Comic Con 22nd Nov 2014',
 'bIsExternal':true,
 'bIsWebPath':true,
-'sUrl':'page7.html',
+'sUrl':'Comic_Con.html',
 'sTarget':'_self'
 }]
 },
 {   'sTitle':'About',
 'bIsExternal':true,
 'bIsWebPath':true,
-'sUrl':'page3.html',
+'sUrl':'About.html',
 'sTarget':'_self'
 },
 {   'sTitle':'Contact',
 'bIsExternal':true,
 'bIsWebPath':true,
-'sUrl':'page4.html',
+'sUrl':'Contact.html',
 'sTarget':'_self'
 }]
 });
